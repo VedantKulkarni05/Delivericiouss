@@ -83,7 +83,7 @@ body {
 #Home::before {
   content: "";
   position: absolute;
-  background: url(/Asset/bg/Home.png) no-repeat center/cover;
+  background: url(/Delivericiouss/Asset/bg/Home.png) no-repeat center/cover;
   top: 0px;
   left: 0px;
   height: 658px;
@@ -149,7 +149,7 @@ body {
 #client-section::before {
   content: " ";
   position: absolute;
-  background: url("/Asset/bg/ContactUS.png");
+  background: url("/Delivericiouss/Asset/bg/ContactUS.png");
   width: 100%;
   height: 100%;
   z-index: -1;
@@ -168,7 +168,7 @@ body {
   height: 100%;
   z-index: -1;
   opacity: 0.4;
-  background: url(/Asset/bg/4034735.jpg) no-repeat center center/cover;
+  background: url( /Delivericiouss/Asset/bg/4034735.jpg) no-repeat center center/cover;
 }
 
 #contactUs {
