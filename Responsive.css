@@ -1,0 +1,72 @@
+/* Navigation */
+#navbar {
+  flex-direction: column;
+}
+
+#navbar ul li a {
+  font-size: 1rem;
+  padding: 0px 7px;
+  padding-bottom: 8px;
+}
+/* Home section */
+#Home {
+  height: 347px;
+  padding: 2px 0px;
+}
+
+#Home::before {
+  height: 480px; /* Adjust the height if necessary for the background image */
+  content: "";
+  position: absolute;
+  background: url(/Asset/bg/Home.png) no-repeat center/cover;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.89;
+}
+
+#Home p {
+  font-size: 13px;
+  /* Add padding and a fixed height to create a scrollable box for the paragraph */
+  padding: 10px;
+  height: 280px;
+  overflow: auto;
+}
+
+/* Services section  */
+#services {
+  flex-direction: column;
+}
+
+#services .box {
+  padding: 14px;
+  margin: 2px 0px;
+  margin-bottom: 20px;
+}
+
+/* Clients section */
+#clients {
+  flex-wrap: wrap;
+}
+
+#clients img {
+  width: 50px;
+  padding: 6px;
+  height: auto;
+}
+
+/* Contact us section */
+#contact-box form {
+  width: 80%;
+}
+/* Footer */
+
+/* Utility classes */
+.h-primary {
+  font-size: 26px;
+}
+.btn {
+  font-size: 13px;
+  padding: 4px 8px;
+}
